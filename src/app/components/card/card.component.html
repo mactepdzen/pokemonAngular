@@ -1,0 +1,11 @@
+<div *ngFor="let pokemon of pokemons" class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <div>{{ pokemon.name }}</div>
+      <div>
+        <img src="../../../assets/images/{{ pokemon.id }}.png" alt="" width="100">
+      </div>
+      <app-button></app-button>
+    </div>
+  </div>
+</div>

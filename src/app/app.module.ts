@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { SwitchStyleDirective } from './directives/switch-style.directive';
 import { ListOfCardsComponent } from './components/list-of-cards/list-of-cards.component';
 import { CardComponent } from './components/card/card.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ButtonComponent } from './components/card/button/button.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +14,8 @@ import { CardComponent } from './components/card/card.component';
     SwitchStyleDirective,
     ListOfCardsComponent,
     CardComponent,
+    HeaderComponent,
+    ButtonComponent,
   ],
   imports: [
     BrowserModule
@@ -19,4 +23,5 @@ import { CardComponent } from './components/card/card.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
